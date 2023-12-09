@@ -8,41 +8,57 @@ The HealthCare Companion App is a comprehensive healthcare platform developed us
 
 ## Features
 
-### 1. Seamless Connectivity
+### 1. Health Data Tracking:
 
-Establishes a seamless connection between patients and healthcare providers, fostering efficient communication and information sharing.
+health data tracking using fitbit watches  and  image scanning of CGM Values.
 
-### 2. AI-Driven Health Data Tracking
+### 2.  Personalized Analysis for the patient's Well-being:
 
-Employs AI-driven analysis for extensive health data tracking, generating personalized reports to aid both patients and doctors in making informed decisions.
+AI-driven analysis for personalized reports.
 
-### 3. Emergency Assistance and Fall Detection
+### 3. Securing Your Health History:
 
-Utilizes accelerometer technology to provide emergency assistance and fall detection, ensuring swift responses in critical situations.
+Blockchain for  securing patients medical record.
 
-### 4. Mental Health Support
+### 4. Smart Medication Assistance for Elders:
 
-Facilitates mental health support through community discussions and access to professional psychologists, fostering a supportive environment for users.
+innovative way for medication reminders facilating the process for elders.
 
-### 5. Medication Management and Delivery
+### 5. Scoring System for Personal Health:
 
-Offers a comprehensive solution for medication management, including reminders and delivery services to enhance adherence to treatment plans.
+Scoring System based on our patient's data.
 
-### 6. Incentivization for Health Improvement
+### 6. Community Events and Exclusive Health articles:
 
-Introduces a points system to incentivize users for health improvement, encouraging a proactive approach to personal well-being.
+community events and exclusive articles.
 
-### 7. Integration with Wearable Devices
+### 7. Your AI Health Consultant:
 
-Integrates seamlessly with wearable devices for real-time health monitoring, providing accurate and up-to-date health information.
+Doctor AI ready to answer all health related question.
 
-### 8. User Convenience for the Elderly
+### 8. Therapy Groups for Health Support
 
-Prioritizes user convenience, especially for the elderly, with AI-powered medication reminders using images for easy recognition.
+therapy groups  providing a safe space for individuals facing similar health issues to come together.
+
+### 9. online private therapy sessions 
+
+We will provide online private therapy sessions fo the ones who needs help mentally based on their data.
+
+### 10. Online Appointments with Your Personal Doctor
+
+we will have a sys well studies where the patient can make an appointment with a personal doctor in case he wants to.
+
+### 11. Community Cloud overseen by the Minister of Health
+
+Community cloud overseen by minister of health where all our patient's data will be well secured.
+
+### 12. Accelerometer-Based Emergency Response System
+
+Using accelometer to detect falls and possible loss of consciness resulting in Automatic emergency call
 
 ## Unique Value Proposition
 
-The HealthCare Companion App stands out for its holistic approach to healthcare, bringing together medical tracking, emergency assistance, mental health support, medication management, and community engagement under one platform. This comprehensive approach aims to enhance the overall well-being of users by addressing various aspects of health and providing a unified solution.
+The HealthCare Companion App stands out for its innovative solution that  addresses the pressing need for advanced remote patient monitoring in today's healthcare landscape. HealthSync Pro revolutionizes healthcare management by seamlessly collecting vital health data from patients and connecting them to their doctors.
 
 ## Continuous Improvement
 
@@ -59,8 +75,14 @@ To run the app locally, follow these steps:
 
 Feel free to explore the codebase and contribute to the project's development.
 
+## Figma:
+
+Link: `https://www.figma.com/file/fC9OdO2iLOprmcrXZmTWzs/HealthSync-Pro?type=design&node-id=183%3A309&mode=design&t=jUmbaHPDtBUUUPyB-1`
+
 ## Contributors
 
-- Debbech Iheb - Project Lead and Developer
+- Debbech Iheb - Project Lead and Designer
+- BEN KHALIFA Ala eddine - Business Developer
+- METOUI Farah - Developer
 
 
