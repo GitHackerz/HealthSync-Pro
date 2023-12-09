@@ -1,20 +1,54 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import {StatusBar} from 'react-native';
+import {SafeAreaProvider} from "react-native-safe-area-context";
+import {NavigationContainer} from "@react-navigation/native";
+import {createStackNavigator} from "@react-navigation/stack";
+import MainStack from "./stacks/MainStack";
+import AuthStack from "./stacks/AuthStack";
+import {
+    Montserrat_100Thin,
+    Montserrat_200ExtraLight,
+    Montserrat_300Light,
+    Montserrat_400Regular,
+    Montserrat_500Medium,
+    Montserrat_600SemiBold,
+    Montserrat_700Bold,
+    Montserrat_800ExtraBold,
+    Montserrat_900Black,
+    useFonts
+} from "@expo-google-fonts/montserrat";
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
-}
+    const Stack = createStackNavigator();
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+    const [fontsLoaded] = useFonts({
+        Montserrat_100Thin,
+        Montserrat_200ExtraLight,
+        Montserrat_300Light,
+        Montserrat_400Regular,
+        Montserrat_500Medium,
+        Montserrat_600SemiBold,
+        Montserrat_700Bold,
+        Montserrat_800ExtraBold,
+        Montserrat_900Black,
+    });
+
+    if (!fontsLoaded)
+        return null;
+
+    return (
+        <SafeAreaProvider>
+            <StatusBar style="auto"/>
+            <NavigationContainer>
+                <Stack.Navigator
+                    initialRouteName={"AuthStack"}
+                    screenOptions={{
+                        headerShown: false,
+                    }}>
+                    <Stack.Screen name="AuthStack" component={AuthStack}/>
+                    <Stack.Screen name="MainStack" component={MainStack}/>
+                </Stack.Navigator>
+            </NavigationContainer>
+        </SafeAreaProvider>
+    );
+
+}
