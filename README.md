@@ -77,7 +77,7 @@ Feel free to explore the codebase and contribute to the project's development.
 
 ## Figma:
 
-Link: `https://www.figma.com/file/fC9OdO2iLOprmcrXZmTWzs/HealthSync-Pro?type=design&node-id=183%3A309&mode=design&t=jUmbaHPDtBUUUPyB-1`
+[![Figma Design](https://img.shields.io/badge/Figma-Design-orange?logo=figma)](https://www.figma.com/file/fC9OdO2iLOprmcrXZmTWzs/HealthSync-Pro?type=design&node-id=183%3A309&mode=design&t=jUmbaHPDtBUUUPyB-1)
 
 ## Contributors
 
