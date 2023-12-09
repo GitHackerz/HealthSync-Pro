@@ -1,6 +1,6 @@
 # HealthCare Companion App
 
-![App Logo](link_to_your_logo.png)
+![App Logo](healthsyncproadobe.jpg)
 
 ## Overview
 
